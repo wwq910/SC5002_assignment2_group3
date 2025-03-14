@@ -134,16 +134,13 @@ print(f"Ridge Regression (Test) with alpha={best_alpha} - R^2:", test_r2_ridge)
 
 
 # 4. Analysis and Comparison
-print("\n--- Final Comparison ---")
+print("Final Comparison")
 print(f"Linear Regression - Test MSE: {test_mse_lin:.2f}, R^2: {test_r2_lin:.4f}")
 print(f"Ridge Regression (alpha={best_alpha}) - Test MSE: {test_mse_ridge:.2f}, R^2: {test_r2_ridge:.4f}")
 
 
 # 5. Suggestions for Improving Model Performance
-print("\nFurther improvements could include:")
-print("- Trying more alpha values for tuning Ridge.")
-print("- Outlier handling or transforming the target (e.g., log-transform SalePrice).")
-print("- Experimenting with additional features or further feature engineering.")
-print("- Scaling additional features if you decide to expand the feature set.")
-
+print("Trying more alpha values for tuning Ridge.")
+print("Outlier handling or transforming the target (e.g., log-transform SalePrice).")
+print("Experimenting with additional features or further feature engineering.")
 
